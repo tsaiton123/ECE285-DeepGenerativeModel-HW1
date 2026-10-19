@@ -10,7 +10,7 @@ for the requested evaluation metrics.
 ## Repository contents
 
 This repository includes source code, tests, pinned dependencies, editable report
-sources and figures, final PDF deliverables, and compact results from the original
+sources and figures, the final report PDF, and compact results from the original
 experiment. Raw datasets, model checkpoints, generated sample arrays, Inception
 feature caches, per-image manifests, training logs, intermediate epoch images,
 archives, virtual environments, and temporary files are excluded by `.gitignore`.
@@ -19,14 +19,10 @@ to run evaluation or sampling after cloning.
 
 ## Gradescope submission
 
-- Gradescope accepts PDF only. Upload `output/pdf/submission_report_and_code.pdf`:
-  pages 1-2 are the report (including references; official NeurIPS 2025 preprint
-  style), and pages 3-11 contain the source code with file names and line numbers.
-- Separate PDFs are also available: `output/pdf/report.pdf` and
-  `output/pdf/code.pdf` if report and code are assigned to separate upload fields.
-- The code appendix includes the VAE, data preparation, training, evaluation,
-  sampling, dataset download/recovery scripts, tests, and package requirements.
-  It contains no model weights, datasets, caches, or experiment logs.
+- Upload `output/pdf/report.pdf`: the two-page report includes references and a
+  clickable GitHub link before the References section.
+- Code is submitted through this GitHub repository, as permitted by the
+  instructor. Ensure the instructor and teaching assistants can access it.
 - `output/submission.zip` is an optional local reproducibility archive, not the
   PDF-only Gradescope deliverable; it is excluded from Git.
 

@@ -60,10 +60,8 @@ data/
 *.fdb_latexmk
 *.synctex.gz
 
-# Preserve the final report and submission PDFs
+# Preserve the final report PDF
 /output/*
 !/output/pdf/
 /output/pdf/*
 !/output/pdf/report.pdf
-!/output/pdf/code.pdf
-!/output/pdf/submission_report_and_code.pdf
