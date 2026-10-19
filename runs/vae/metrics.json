@@ -1,0 +1,32 @@
+{
+  "fid_pool2048": 210.9647105012526,
+  "fid_probability1000": 0.2829921604421634,
+  "inception_score": 1.6965907872306176,
+  "is_10split_mean": 1.6771696613185683,
+  "is_10split_std": 0.08008781444527685,
+  "is_10split_values": [
+    1.6853791355190202,
+    1.6173024439029686,
+    1.555488466396874,
+    1.8136448173111117,
+    1.7059223674980881,
+    1.6302090688639221,
+    1.7722816295169448,
+    1.7135085122037366,
+    1.7122658908025488,
+    1.5656942811704697
+  ],
+  "n_real": 618,
+  "n_generated": 618,
+  "seed": 123,
+  "checkpoint_epoch": 30,
+  "checkpoint_sha256": "759566756d23e4858d1fc9065e9e8c27c230d06c7c95f3503000e9fc757dd4d0",
+  "test_elbo_loss": 2391.059421773867,
+  "test_bce": 2367.584896149373,
+  "test_kl": 23.47452442700037,
+  "feature_model": "torchvision Inception_V3_Weights.IMAGENET1K_V1",
+  "preprocessing": "64x64 grayscale -> uint8 RGB -> PIL bilinear 299x299 -> ImageNet mean/std",
+  "fid_note": "Ignite FID with 2048 pool features; not TensorFlow/pytorch-fid weights",
+  "small_sample_note": "Test count is below feature dimension; covariance is rank deficient and FID is sample-size biased",
+  "seconds": 18.73690554103814
+}

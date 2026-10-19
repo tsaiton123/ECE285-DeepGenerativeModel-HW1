@@ -1,0 +1,12 @@
+{
+  "dataset_url": "https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia",
+  "download_endpoint": "https://www.kaggle.com/api/v1/datasets/download/paultimothymooney/chest-xray-pneumonia",
+  "recovery": "Complete nested copy chest_xray/chest_xray/ recovered from interrupted download; every member validated using local-header CRC32 and size. All 5856 images recovered before deduplication and group filtering.",
+  "raw_split_counts": {
+    "train": 5216,
+    "val": 16,
+    "test": 624
+  },
+  "inception_weights_sha256": "0cc3c7bd75056d25e46cba549dc184522069b81e9787eff6df84f397bd52a5ef",
+  "report_author": "Yun-Tong Tsai"
+}

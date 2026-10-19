@@ -1,0 +1,19 @@
+{
+  "data": "data/prepared",
+  "output": "runs/vae",
+  "epochs": 30,
+  "batch_size": 64,
+  "latent_dim": 32,
+  "base_channels": 32,
+  "lr": 0.001,
+  "warmup": 5,
+  "seed": 42,
+  "device": "auto",
+  "device_used": "mps",
+  "torch": "2.14.1",
+  "python": "3.12.12",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "parameters": 1775361,
+  "n_train": 4269,
+  "n_val": 468
+}

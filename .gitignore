@@ -1,0 +1,69 @@
+# Local environments, caches, and editor files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+tmp/
+/samples.png
+/report/repeat/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.kaggle/
+kaggle.json
+credentials.json
+*.pem
+*.key
+
+# Downloaded data, archives, model weights, and derived tensors
+data/
+*.zip
+*.tar
+*.tar.gz
+*.part
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.log
+
+# Keep only compact evidence from the reference experiment
+/runs/*
+!/runs/vae/
+/runs/vae/*
+!/runs/vae/config.json
+!/runs/vae/history.csv
+!/runs/vae/metrics.json
+!/runs/vae/provenance.json
+!/runs/vae/timing.json
+!/runs/vae/discussion.txt
+!/runs/vae/generated.png
+!/runs/vae/reconstructions.png
+
+# LaTeX build intermediates
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Preserve the final report and submission PDFs
+/output/*
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/report.pdf
+!/output/pdf/code.pdf
+!/output/pdf/submission_report_and_code.pdf
